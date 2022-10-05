@@ -1,8 +1,8 @@
 {
-  "name-web":"OTOMOTIF",
-  "author":"OTOMOTIF",
+  "name-web":"DECORATION",
+  "author":"DECORATION",
   "remove-comment-html":true,
-  "target":"https://stackoverflow.com",
+  "target":"https://www.mydomaine.com",
   "map-permalink":[
     "cars",
     "content",
@@ -26,14 +26,14 @@
   ],
   "costom-element-remove":[
     {
-      "target":"stackoverflow.com",
+      "target":"www.mydomaine.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"https://stackoverflow.com",
+          "target":"https://www.mydomaine.com",
           "replace":"${nameWeb}"
         }
       ]
